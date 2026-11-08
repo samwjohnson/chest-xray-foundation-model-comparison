@@ -1,0 +1,10 @@
+cxr_data/
+fm_emb/
+CheXFound/
+*.npy
+*.png
+*.tar.gz
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+.env
