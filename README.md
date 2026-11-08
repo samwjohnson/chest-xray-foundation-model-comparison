@@ -22,6 +22,7 @@ Frozen embeddings from two chest X-ray foundation models, scored with a linear p
 
 - The paired patient-level bootstrap shows a statistical tie: the 95% CI for the difference crosses zero.
 - MLP heads gave no gain over the linear probes.
+- These headline AUROCs were computed on the October 27, 2026 embeddings, before the October 31 re-extraction that fixed the row-alignment issue; on the re-extracted embeddings the linear probes scored 0.758 (RAD-DINO) and 0.759 (CheXFound), still effectively a tie with CheXFound a hair ahead.
 
 Caveat: both models were pretrained on image sets that include NIH ChestX-ray14 images (without these labels), so the evaluation images may have been seen during unlabeled pretraining.
 
